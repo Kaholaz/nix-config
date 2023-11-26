@@ -10,7 +10,6 @@
     ../components/git.nix
 
     # Services
-    ../components/cron.nix
     ../components/printing.nix
 
     # System package groups
