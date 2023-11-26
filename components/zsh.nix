@@ -18,5 +18,7 @@
       plugins = [ "git" "thefuck" ];
       theme = "afowler";
     };
+    autosuggestions.enable = true;
+    syntaxHighlighting.enable = true;
   };
 }
