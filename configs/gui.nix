@@ -9,5 +9,6 @@
     # firefox # Crashes on github.com
     discord
     brave
+    spotify
   ];
 }
