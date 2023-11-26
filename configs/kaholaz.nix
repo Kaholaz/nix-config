@@ -8,6 +8,7 @@
     ../components/locate.nix
     ../components/rust.nix
     ../components/git.nix
+    ../components/trash-cli.nix
 
     # Services
     ../components/printing.nix
