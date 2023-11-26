@@ -2,6 +2,7 @@
 {
   imports = [
     ../components/gnome.nix
+    ../components/audio.nix
   ];
 
   environment.systemPackages = with pkgs; [

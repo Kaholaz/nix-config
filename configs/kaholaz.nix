@@ -17,7 +17,6 @@
 
     # Configs
     ../components/keyboard.nix
-    ../components/audio.nix
     ../components/networking.nix
     ../components/localization.nix
   ];
