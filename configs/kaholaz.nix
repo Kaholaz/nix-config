@@ -9,6 +9,7 @@
     ../components/rust.nix
     ../components/git.nix
     ../components/trash-cli.nix
+    ../components/zsh.nix
 
     # Services
     ../components/printing.nix
