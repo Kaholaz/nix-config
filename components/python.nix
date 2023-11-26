@@ -1,10 +1,10 @@
 {environment, pkgs, ...}:
 let myPythonPackages = ps: with ps; [
     black
+    ruff
     matplotlib
     numpy
     scipy
-    pyserial
 ];
 in
 {
