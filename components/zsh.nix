@@ -21,6 +21,7 @@
       ll = "ls -l";
       l = "ls -la";
       update = "sudo nixos-rebuild switch";
+      np = "nix-shell -p";
 
       cassa = "mosh vsbugge@cassarossa.samfundet.no";
       cirkus = "mosh vsbugge@cirkus.samfundet.no";
