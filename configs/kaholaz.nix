@@ -1,4 +1,4 @@
-{config, pkgs, ...}:
+{config, pkgs, environment, ...}:
 {
   imports = [
     # Programs
@@ -14,14 +14,23 @@
     # Services
     ../components/printing.nix
 
-    # System package groups
-    ../components/essentials.nix
-
     # Configs
     ../components/keyboard.nix
     ../components/networking.nix
     ../components/localization.nix
   ];
+
+  environment.systemPackages = with pkgs; [
+    htop
+    mosh
+    killall
+    wget
+    curl
+    dig
+    fd
+    ripgrep
+  ];
+  programs.command-not-found.enable = true;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.kaholaz = {
